@@ -65,7 +65,7 @@ export class WebAgentExecutor extends BaseChain {
 
     returnIntermediateSteps = false;
 
-    maxIterations?: number = 15;
+    maxIterations?: number = 10000;
 
     earlyStoppingMethod: StoppingMethod = 'force';
 
